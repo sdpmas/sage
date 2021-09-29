@@ -1,0 +1,544 @@
+
+2021-08-08 16:26:41,914:INFO:deploy.py:deploy:41:
+Deploying model_name=pytorch-text-classification to env=local
+
+2021-08-08 16:32:11,283:INFO:train.py:<module>:231:
+{
+  "cuda": false,
+  "seed": 1234,
+  "shuffle": true,
+  "data_url": "https://raw.githubusercontent.com/madewithml/lessons/master/data/news.csv",
+  "lower": true,
+  "char_level": false,
+  "filters": "[!\\\"'#$%&()*\\+,-./:;<=>?@\\\\\\[\\]^_`{|}~]",
+  "data_size": 0.1,
+  "train_size": 0.7,
+  "val_size": 0.15,
+  "test_size": 0.15,
+  "num_epochs": 10,
+  "batch_size": 64,
+  "embedding_dim": 100,
+  "use_glove": false,
+  "freeze_embeddings": false,
+  "filter_sizes": [
+    2,
+    3,
+    4
+  ],
+  "num_filters": 50,
+  "hidden_dim": 128,
+  "dropout_p": 0.1,
+  "learning_rate": 0.0001,
+  "patience": 3
+}
+
+2021-08-09 01:46:52,651:INFO:deploy.py:deploy:41:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 01:58:35,154:INFO:deploy.py:deploy:41:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 02:04:53,063:INFO:deploy.py:deploy:41:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 02:53:20,176:INFO:deploy.py:deploy:41:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 02:53:55,857:INFO:deploy.py:deploy:41:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 02:55:13,492:INFO:deploy.py:deploy:41:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 02:56:25,751:INFO:deploy.py:deploy:41:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 02:57:34,203:INFO:deploy.py:deploy:41:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 02:58:58,217:INFO:deploy.py:deploy:41:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 02:59:45,547:INFO:deploy.py:deploy:41:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:00:05,543:INFO:deploy.py:deploy:41:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:04:04,457:INFO:deploy.py:deploy:41:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:04:58,408:INFO:deploy.py:deploy:41:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:06:47,158:INFO:deploy.py:deploy:43:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:07:08,321:INFO:deploy.py:deploy:44:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:07:50,412:INFO:deploy.py:deploy:44:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:08:02,196:INFO:deploy.py:deploy:44:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:08:32,633:INFO:deploy.py:deploy:44:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:09:07,234:INFO:deploy.py:deploy:44:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:09:31,242:INFO:deploy.py:deploy:45:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:09:37,974:INFO:deploy.py:deploy:45:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:11:39,715:INFO:deploy.py:deploy:45:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:12:05,743:INFO:deploy.py:deploy:45:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:12:35,125:INFO:deploy.py:deploy:45:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:14:17,778:INFO:deploy.py:deploy:45:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:14:28,910:INFO:deploy.py:deploy:45:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:24:00,319:INFO:deploy.py:deploy:45:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:43:51,133:INFO:deploy.py:deploy:45:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:44:39,962:INFO:deploy.py:deploy:45:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:46:32,255:INFO:deploy.py:deploy:46:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:46:47,167:INFO:deploy.py:deploy:46:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:49:30,448:INFO:deploy.py:deploy:46:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 03:59:57,610:INFO:deploy.py:deploy:46:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 04:03:34,029:INFO:deploy.py:deploy:46:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 04:05:10,073:INFO:deploy.py:deploy:46:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 04:27:51,237:INFO:deploy.py:deploy:46:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 15:52:02,056:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 16:02:52,234:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 16:35:33,584:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 16:47:50,251:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 16:49:04,667:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 17:45:10,861:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 17:46:01,365:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=local
+2021-08-09 17:48:45,549:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 18:18:36,544:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 19:24:38,258:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 21:17:12,693:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=local
+
+2021-08-09 21:42:22,312:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=production
+
+2021-08-09 21:43:21,532:INFO:deploy.py:upload_model_data:20:
+Uploading model.tar.gz to S3 bucket=sdpmascode...
+
+2021-08-09 21:54:47,084:INFO:deploy.py:deploy:58:
+Deploying model_name=codesearch to env=production
+
+2021-08-09 21:55:43,525:INFO:deploy.py:upload_model_data:20:
+Uploading model.tar.gz to S3 bucket=sdpmascode...
+
+2021-08-09 21:57:14,981:INFO:deploy.py:deploy:58:
+Deploying model_name=codesearch to env=production
+
+2021-08-09 21:58:12,501:INFO:deploy.py:upload_model_data:20:
+Uploading model.tar.gz to S3 bucket=sdpmascodenew...
+
+2021-08-09 21:58:33,223:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=production
+
+2021-08-09 21:59:31,426:INFO:deploy.py:upload_model_data:20:
+Uploading model.tar.gz to S3 bucket=sdpmascodenew...
+
+2021-08-10 01:10:29,819:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=production
+
+2021-08-10 01:10:30,864:INFO:deploy.py:deploy:70:
+Instance type: ml.p2.xlarge
+
+2021-08-10 19:01:59,334:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=production
+
+2021-08-10 19:02:00,389:INFO:deploy.py:deploy:70:
+Instance type: ml.t2.medium
+
+2021-08-12 20:49:19,556:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=production
+
+2021-08-12 20:49:20,882:INFO:deploy.py:deploy:70:
+Instance type: ml.t2.medium
+
+2021-08-13 02:36:36,285:INFO:deploy.py:deploy:56:
+Deploying model_name=codesearch to env=production
+
+2021-08-13 02:36:40,476:INFO:deploy.py:upload_model_data:20:
+Uploading model.tar.gz to S3 bucket=seargen...
+
+2021-08-13 02:37:46,602:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-13 02:41:48,217:INFO:deploy.py:upload_model_data:20:
+Uploading model.tar.gz to S3 bucket=seargen...
+
+2021-08-13 03:46:15,809:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-13 03:46:16,992:INFO:deploy.py:deploy:70:
+Instance type: ml.t2.medium
+
+2021-08-13 04:04:49,746:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-13 04:04:51,029:INFO:deploy.py:deploy:70:
+Instance type: ml.t2.large
+
+2021-08-13 04:25:12,935:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-13 04:25:13,990:INFO:deploy.py:deploy:70:
+Instance type: ml.t2.large
+
+2021-08-13 11:17:59,897:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-13 11:18:00,942:INFO:deploy.py:deploy:70:
+Instance type: ml.t2.medium
+
+2021-08-13 12:48:14,875:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-13 12:48:16,135:INFO:deploy.py:deploy:70:
+Instance type: ml.t2.medium
+
+2021-08-13 14:09:43,899:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-13 14:09:46,547:INFO:deploy.py:deploy:70:
+Instance type: ml.m5.large
+
+2021-08-13 21:38:33,354:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-13 21:39:51,133:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-13 21:39:51,555:INFO:deploy.py:deploy:71:
+Instance type: ml.m5.large
+
+2021-08-13 22:17:50,978:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-13 22:17:51,304:INFO:deploy.py:deploy:71:
+Instance type: ml.p3.2xlarge
+
+2021-08-20 16:57:25,885:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-20 16:57:26,373:INFO:deploy.py:deploy:71:
+Instance type: ml.t2.large
+
+2021-08-20 17:36:29,979:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-20 17:36:30,325:INFO:deploy.py:deploy:71:
+Instance type: ml.t2.xlarge
+
+2021-08-22 22:21:48,332:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-22 22:21:48,776:INFO:deploy.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-23 06:35:14,990:INFO:deploy.py:deploy:56:
+Deploying model_name=seargeninf to env=production
+
+2021-08-23 06:35:15,446:INFO:deploy.py:deploy:71:
+Instance type: ml.inf1.2xlarge
+
+2021-08-23 06:35:43,833:INFO:deploy.py:deploy:56:
+Deploying model_name=seargen to env=production
+
+2021-08-23 06:35:58,982:INFO:deploy.py:deploy:56:
+Deploying model_name=seargeninf to env=production
+
+2021-08-23 06:35:59,282:INFO:deploy.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-23 06:36:47,036:INFO:deploy.py:deploy:56:
+Deploying model_name=seargeninf1 to env=production
+
+2021-08-23 06:36:47,360:INFO:deploy.py:deploy:71:
+Instance type: ml.inf1.2xlarge
+
+2021-08-23 06:37:49,800:INFO:deploy.py:deploy:56:
+Deploying model_name=seargeninf1 to env=production
+
+2021-08-23 06:37:50,118:INFO:deploy.py:deploy:71:
+Instance type: ml.p2.xlarge
+
+2021-08-23 07:03:41,990:INFO:deployc.py:deploy:56:
+Deploying model_name=seargeninf1 to env=production
+
+2021-08-23 07:03:42,313:INFO:deployc.py:deploy:71:
+Instance type: ml.p2.xlarge
+
+2021-08-23 20:23:20,607:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf to env=production
+
+2021-08-23 20:23:21,018:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-23 20:45:39,260:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf to env=production
+
+2021-08-23 20:45:39,627:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-23 21:28:02,957:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf to env=production
+
+2021-08-23 21:28:03,393:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-25 06:28:44,593:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf1 to env=production
+
+2021-08-25 06:28:44,922:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-25 06:29:18,581:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf1 to env=production
+
+2021-08-25 06:29:18,899:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-25 06:31:09,844:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf1 to env=production
+
+2021-08-25 06:31:10,306:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-25 06:31:44,014:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf1 to env=production
+
+2021-08-25 06:31:44,325:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-25 06:32:12,475:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf1 to env=production
+
+2021-08-25 06:32:12,802:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-25 06:32:12,802:INFO:deployc.py:deploy:72:
+Instance no: 3instances
+
+2021-08-25 06:38:52,669:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf1 to env=production
+
+2021-08-25 06:38:53,081:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-25 06:38:53,081:INFO:deployc.py:deploy:72:
+Instance no: 2instances
+
+2021-08-25 18:37:38,807:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf to env=production
+
+2021-08-25 18:37:39,328:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-25 18:37:39,328:INFO:deployc.py:deploy:72:
+Instance no: 1instances
+
+2021-08-25 21:20:55,575:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf1 to env=
+2021-08-26 14:16:17,176:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf3 to env=production
+
+2021-08-26 14:16:17,618:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-26 14:16:17,618:INFO:deployc.py:deploy:72:
+Instance no: 3instances
+
+2021-08-26 21:58:07,721:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf2 to env=production
+
+2021-08-26 21:58:08,055:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-26 21:58:08,056:INFO:deployc.py:deploy:72:
+Instance no: 2instances
+
+2021-08-27 00:15:55,419:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf2 to env=production
+
+2021-08-27 00:15:55,745:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-27 00:15:55,745:INFO:deployc.py:deploy:72:
+Instance no: 2instances
+
+2021-08-28 22:32:05,070:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf2 to env=production
+
+2021-08-28 22:32:05,375:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-28 22:32:05,375:INFO:deployc.py:deploy:72:
+Instance no: 2instances
+
+2021-08-28 22:32:28,939:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf2 to env=production
+
+2021-08-28 22:32:29,222:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-08-28 22:32:29,222:INFO:deployc.py:deploy:72:
+Instance no: 1instances
+
+2021-09-01 01:18:14,469:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf2 to env=production
+
+2021-09-01 01:18:14,968:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-09-01 01:18:14,969:INFO:deployc.py:deploy:72:
+Instance no: 1instances
+
+2021-09-03 00:58:46,700:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf2 to env=production
+
+2021-09-03 00:58:47,337:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-09-03 00:58:47,337:INFO:deployc.py:deploy:72:
+Instance no: 1instances
+
+2021-09-03 01:02:54,570:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf2 to env=production
+
+2021-09-03 01:02:54,902:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-09-03 01:02:54,902:INFO:deployc.py:deploy:72:
+Instance no: 2instances
+
+2021-09-03 01:05:56,636:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf2 to env=production
+
+2021-09-03 01:05:56,964:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-09-03 01:05:56,964:INFO:deployc.py:deploy:72:
+Instance no: 2instances
+
+2021-09-03 01:27:09,651:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf2 to env=production
+
+2021-09-03 01:27:09,969:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-09-03 01:27:09,969:INFO:deployc.py:deploy:72:
+Instance no: 2instances
+
+2021-09-03 01:53:55,963:INFO:deployc.py:deploy:56:
+Deploying model_name=seargenf2 to env=production
+
+2021-09-03 01:53:56,578:INFO:deployc.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-09-03 01:53:56,578:INFO:deployc.py:deploy:72:
+Instance no: 2instances
+
+2021-09-28 02:47:53,647:INFO:deployn.py:deploy:56:
+Deploying model_name=seargenpj to env=production
+
+2021-09-28 02:47:54,126:INFO:deployn.py:deploy:71:
+Instance type: ml.g4dn.xlarge
+
+2021-09-28 02:47:54,126:INFO:deployn.py:deploy:72:
+Instance no: 1instances
+
+2021-09-28 02:56:19,773:INFO:deployn.py:deploy:56:
+Deploying model_name=seargenpj to env=production
+
+2021-09-28 02:56:20,090:INFO:deployn.py:deploy:71:
+Instance type: ml.g4dn.2xlarge
+
+2021-09-28 02:56:20,090:INFO:deployn.py:deploy:72:
+Instance no: 1instances
+
+2021-09-28 03:07:22,825:INFO:deployn.py:deploy:56:
+Deploying model_name=seargenpj to env=production
+
+2021-09-28 03:07:23,156:INFO:deployn.py:deploy:71:
+Instance type: ml.g4dn.4xlarge
+
+2021-09-28 03:07:23,156:INFO:deployn.py:deploy:72:
+Instance no: 1instances
+
+2021-09-28 23:12:05,649:INFO:deployn.py:deploy:56:
+Deploying model_name=seargenpj to env=production
+
+2021-09-28 23:12:06,075:INFO:deployn.py:deploy:71:
+Instance type: ml.g4dn.2xlarge
+
+2021-09-28 23:12:06,075:INFO:deployn.py:deploy:72:
+Instance no: 1instances
+
+2021-09-28 23:18:43,190:INFO:deployn.py:deploy:56:
+Deploying model_name=seargenpj to env=production
+
+2021-09-28 23:18:43,502:INFO:deployn.py:deploy:71:
+Instance type: ml.g4dn.2xlarge
+
+2021-09-28 23:18:43,502:INFO:deployn.py:deploy:72:
+Instance no: 1instances

@@ -1,0 +1,12 @@
+environments:
+  default: &default
+    model_name: seargenpj
+    aws_role: 'AmazonSageMakerFullAccess'
+  local:
+    <<: *default
+    instance_type: local
+    model_data_path: 'build/model.tar.gz'
+  production:
+    <<: *default
+    instance_type: ml.g4dn.2xlarge
+    model_data_path: s3://seargenpj/model.tar.gz
